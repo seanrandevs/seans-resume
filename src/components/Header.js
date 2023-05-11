@@ -1,14 +1,17 @@
-import { Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
-    <div>
+    <div className="image" id="about">
         <Navbar>
-            <Nav.Link>About</Nav.Link>
-            <Nav.Link>Projects</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
+            <HashLink className="link" smooth to="#projects">PROJECTS</HashLink>
+            <HashLink className="link" smooth to="#contact">CONTACT</HashLink>
         </Navbar>
+        <div className="main-display">
+          <div className="name">Sean Ransonet</div>
+          <h2>I'm A Front-end Web Developer</h2>
+        </div>
     </div>
   )
 }
