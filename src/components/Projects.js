@@ -1,11 +1,13 @@
 import { Card, Button } from 'react-bootstrap'
 import Irvins from '../assets/project-img/irvins.jpg'
-import Wanderlust from '../assets/project-img/wanderlust.jpeg'
-import Weather from '../assets/project-img/weather.jpeg'
-import Covers from '../assets/project-img/covers.jpeg'
+import Wanderlust from '../assets/project-img/wanderlust.jpg'
+import Weather from '../assets/project-img//weather.jpg'
+import Covers from '../assets/project-img/covers.jpg'
 import TaskTracker from '../assets/project-img/task.jpeg'
-import Bulletin from '../assets/project-img/bulletin.jpeg'
+import Bulletin from '../assets/project-img/bulletin.jpg'
 import Signup from '../assets/project-img/signup.jpeg'
+import FAQ from '../assets/project-img/faq.jpg'
+import AliciaPort from '../assets/project-img/aliciaportfolio.jpg'
 import { HashLink } from "react-router-hash-link";
 
 const Projects = () => {
@@ -98,7 +100,7 @@ const Projects = () => {
             <Card>
               <div className="content">
                 <div className="front">
-                  <Card.Img variant="top" src={Irvins} />
+                  <Card.Img variant="top" src={FAQ} />
                   <Card.Title>FAQ page</Card.Title>
                </div>
                 <div className="back">
@@ -110,7 +112,7 @@ const Projects = () => {
             <Card>
               <div className="content">
                 <div className="front">
-                  <Card.Img variant="top" src={Irvins} />
+                  <Card.Img variant="top" src={AliciaPort} />
                   <Card.Title>Alicia Ransonet's Portfolio Website</Card.Title>
                </div>
                 <div className="back">
