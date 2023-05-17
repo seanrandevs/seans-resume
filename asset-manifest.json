@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/seansportfolio/static/css/main.0a4cb9a8.css",
-    "main.js": "/seansportfolio/static/js/main.c19a7067.js",
-    "static/js/787.dd7e70f8.chunk.js": "/seansportfolio/static/js/787.dd7e70f8.chunk.js",
-    "static/media/background.jpg": "/seansportfolio/static/media/background.45e55377518951c2b972.jpg",
-    "static/media/faq.jpg": "/seansportfolio/static/media/faq.c22317efca4ce0f61f2c.jpg",
-    "static/media/task.jpeg": "/seansportfolio/static/media/task.a1faf513ad2d58c58035.jpeg",
-    "static/media/signup.jpeg": "/seansportfolio/static/media/signup.614f084e3e361b9fc860.jpeg",
-    "static/media/wanderlust.jpg": "/seansportfolio/static/media/wanderlust.6818fb37df3756d6935e.jpg",
-    "static/media/bulletin.jpg": "/seansportfolio/static/media/bulletin.615501b89afd36c60a61.jpg",
-    "static/media/irvins.jpg": "/seansportfolio/static/media/irvins.98ad48ad5c53420ad0f1.jpg",
-    "static/media/aliciaportfolio.jpg": "/seansportfolio/static/media/aliciaportfolio.a801e517bfe73dd340ba.jpg",
-    "static/media/covers.jpg": "/seansportfolio/static/media/covers.87f2ad2496c81298fb2f.jpg",
-    "static/media/weather.jpg": "/seansportfolio/static/media/weather.5c79c5ffe88e49666a96.jpg",
-    "index.html": "/seansportfolio/index.html",
-    "main.0a4cb9a8.css.map": "/seansportfolio/static/css/main.0a4cb9a8.css.map",
-    "main.c19a7067.js.map": "/seansportfolio/static/js/main.c19a7067.js.map",
-    "787.dd7e70f8.chunk.js.map": "/seansportfolio/static/js/787.dd7e70f8.chunk.js.map"
+    "main.css": "/seansresume/static/css/main.da8c3641.css",
+    "main.js": "/seansresume/static/js/main.8cf74f12.js",
+    "static/js/787.dd7e70f8.chunk.js": "/seansresume/static/js/787.dd7e70f8.chunk.js",
+    "static/media/background.jpg": "/seansresume/static/media/background.45e55377518951c2b972.jpg",
+    "static/media/faq.jpg": "/seansresume/static/media/faq.c22317efca4ce0f61f2c.jpg",
+    "static/media/task.jpeg": "/seansresume/static/media/task.a1faf513ad2d58c58035.jpeg",
+    "static/media/signup.jpeg": "/seansresume/static/media/signup.614f084e3e361b9fc860.jpeg",
+    "static/media/wanderlust.jpg": "/seansresume/static/media/wanderlust.6818fb37df3756d6935e.jpg",
+    "static/media/bulletin.jpg": "/seansresume/static/media/bulletin.615501b89afd36c60a61.jpg",
+    "static/media/irvins.jpg": "/seansresume/static/media/irvins.98ad48ad5c53420ad0f1.jpg",
+    "static/media/aliciaportfolio.jpg": "/seansresume/static/media/aliciaportfolio.a801e517bfe73dd340ba.jpg",
+    "static/media/covers.jpg": "/seansresume/static/media/covers.87f2ad2496c81298fb2f.jpg",
+    "static/media/weather.jpg": "/seansresume/static/media/weather.5c79c5ffe88e49666a96.jpg",
+    "index.html": "/seansresume/index.html",
+    "main.da8c3641.css.map": "/seansresume/static/css/main.da8c3641.css.map",
+    "main.8cf74f12.js.map": "/seansresume/static/js/main.8cf74f12.js.map",
+    "787.dd7e70f8.chunk.js.map": "/seansresume/static/js/787.dd7e70f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a4cb9a8.css",
-    "static/js/main.c19a7067.js"
+    "static/css/main.da8c3641.css",
+    "static/js/main.8cf74f12.js"
   ]
 }
