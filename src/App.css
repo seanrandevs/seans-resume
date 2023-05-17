@@ -199,7 +199,14 @@
     flex-direction: column;
     padding-top: 2.5rem;
   }
-  /* .projects {
+  .projects {
     margin: 0;
-  } */
+  }
+}
+@media screen and (max-width: 500px) {
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
