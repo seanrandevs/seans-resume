@@ -27,7 +27,10 @@
 /* Main Display */
 .main-display {
     color: #ffffff;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 15%;
 }
 .name {
@@ -36,6 +39,42 @@
 }
 .main-display h2 {
     font-weight: 400;
+}
+/* Skills */
+.my-skills{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-skills h2 {
+  font-size: 1.8rem;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+  margin-right: 17rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.skills h4  {
+  background: rgba(153,153,153,.2);
+  padding: 0.6rem 0.7rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #ffffff;
+}
+/* About */
+.about {
+  display: flex;
+  align-items: center;
+}
+.about-me {
+  margin-right: 5rem;
 }
 /* Projects */
 .projects {
@@ -55,6 +94,7 @@
     width: 300px;
     height: 300px;
     perspective: 500px;
+    
   }
   .card-title {
     color: #000000;
@@ -71,6 +111,7 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     transition: transform 1s;
     transform-style: preserve-3d;
+    font-size: 1.3rem;
   }
     .card:hover .content {
     transform: rotateY( 180deg ) ;
@@ -131,16 +172,27 @@
     cursor: pointer;
 }
 .arrow-up {
-  position: relative;
-  left: 90%;
-  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 0 2rem 2rem 0;
   color: #ffffff;
   cursor: pointer;
 }
 .arrow-up p {
-  margin-left: 0.5rem;
+  padding-right: 0.3rem;
 }
 .arrow {
   font-size: 2.5rem;
   color: #ffffff;
+}
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+  }
 }

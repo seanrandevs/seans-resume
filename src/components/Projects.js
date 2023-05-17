@@ -21,7 +21,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Demo Clothing store </Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/irvins-clothing'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/irvins-clothing'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -33,7 +33,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>A wonderful blog about everyday life and travel</Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/wanderlustandmotherhood'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/wanderlustandmotherhood'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -45,7 +45,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Simple weather app </Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/react-weather-app'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/react-weather-app'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -57,7 +57,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Top notch custom covers for your boats and gear</Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/custom-covers'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/custom-covers'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -69,7 +69,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Task Tracker to help remember task throughout the day</Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/react-task-tracker'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/react-task-tracker'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -81,7 +81,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Demo Bulletin Board</Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/bulletin-board-app'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/bulletin-board-app'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -93,7 +93,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Demo Sign-up form </Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/signup-form'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/signup-form'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -105,7 +105,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>Demo FAQ page</Card.Text>
-                  <HashLink to='https://seanrandevs.github.io/react-faq'><Button>Website</Button></HashLink>
+                  <HashLink to='https://seanrandevs.github.io/react-faq'><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
@@ -117,7 +117,7 @@ const Projects = () => {
                </div>
                 <div className="back">
                   <Card.Text>A simple and great portfolio website for Alicia Ransonet</Card.Text>
-                  <HashLink to=''><Button>Website</Button></HashLink>
+                  <HashLink to=''><Button>View Project</Button></HashLink>
                 </div>
               </div>
             </Card>
