@@ -211,6 +211,7 @@
   }
   .projects {
     margin: 0;
+    padding-right: 2rem;
   }
   .about{
     padding-left: 0.5rem;
