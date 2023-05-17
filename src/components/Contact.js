@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsChevronUp } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { HashLink } from "react-router-hash-link";
 
 const Contact = () => {
@@ -14,10 +14,6 @@ const Contact = () => {
           <HashLink to='https://www.linkedin.com/in/sean-ransonet-a623b222a/'><BsLinkedin className="icon"/></HashLink>
         </div>
       </div>
-      <div className="arrow-up">
-       <p>top</p>
-      <BsChevronUp className="arrow"/>
-    </div>
   </div>
   )
 }

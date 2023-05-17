@@ -12,7 +12,9 @@ import { HashLink } from "react-router-hash-link";
 
 const Projects = () => {
   return (
-    <div className="projects" id="projects">
+    <div id="projects">
+    <h1 className="project">Projects</h1>
+    <div className="projects" >
             <Card>
               <div className="content">
                 <div className="front">
@@ -121,6 +123,7 @@ const Projects = () => {
                 </div>
               </div>
             </Card>
+    </div>
     </div>
   )
 }

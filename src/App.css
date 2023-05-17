@@ -4,6 +4,27 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+.link, .job, .name, .skills h4,
+ .about h1, .project, .email h1,
+  .email h2 {
+  font-weight: 400;
+}
+.link, .main-display, .skills h4,
+ .about, .btn, .footer, 
+ .icon, .arrow-up, .arrow {
+  color: #ffffff;
+}
+.main-display, .my-skills, .back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content, .btn, .card-title, .link {
+  font-size: 1.5rem;
+}
+.btn, .icon, .arrow-up {
+  cursor: pointer;
+}
 .image {
     height: 100vh;
     background-image: url('./assets/background.jpg');
@@ -19,39 +40,25 @@
     align-items: center;
 }
 .link {
-    font-size: 1.5rem;
-    font-weight: 500;
     text-decoration: none;
-    color: #ffffff;
 }
 /* Main Display */
 .main-display {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding-top: 15%;
 }
 .name {
-    font-size: 3.5rem;
-    font-weight: 300;
+    font-size: 4.5rem;
 }
-.main-display h2 {
-    font-weight: 400;
+.job {
+  font-size: 2.7rem;
 }
 /* Skills */
 .my-skills{
   padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-.my-skills h2 {
-  font-size: 1.8rem;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.5rem;
-  margin-right: 17rem;
+.my-skills h1 {
+  margin-right: 12rem; 
 }
 .skills {
   display: flex;
@@ -65,27 +72,37 @@
   margin-right: 1.5rem;
   border: 1px solid;
   border-radius: 5px;
-  font-weight: 500;
-  color: #ffffff;
 }
 /* About */
 .about {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  background-color: #000207;
+  padding-bottom: 5rem;
 }
-.about-me {
-  margin-right: 5rem;
+.about h1 {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+.about-descrip {
+  max-width: 400px;
 }
 /* Projects */
+.project {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 3rem;
+}
 .projects {
-    margin: 0 auto;
     width: 90vw;
     max-width: 1500px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-column-gap: 2.7rem;
     grid-row-gap: 2.5rem;
-    padding: 2.5rem;
+    padding: 5rem;
+    margin: 0 auto;
     background-color: #ffffff;
 }
 .card {
@@ -98,7 +115,6 @@
   }
   .card-title {
     color: #000000;
-    font-size: 1.5rem;
     margin-top: 0.5rem;
   }
   .card-text {
@@ -111,7 +127,6 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     transition: transform 1s;
     transform-style: preserve-3d;
-    font-size: 1.3rem;
   }
     .card:hover .content {
     transform: rotateY( 180deg ) ;
@@ -129,12 +144,9 @@
     backface-visibility: hidden;
   }  
   .back {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-self: center;
     background: #1d1d1d;
-    color: white;
+    color: #ffffff;
     transform: rotateY( 180deg );
   }
   .card-img-top {
@@ -146,48 +158,40 @@
     padding-top: 3rem;
     background: none;
     border: none;
-    color: #ffffff;
     max-width: 100px;
     margin: 1.5rem auto;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
   /* Footer */
   .contact {
-    background-color: #131212;
+    background-color: #000207;
   }
 .footer {
     display: flex;
     justify-content: space-evenly;
-    color: #ffffff;
     padding: 5rem 0;
 }
-.email h1, h2 {
-   font-weight: 300;
-}
 .icon {
-  color: #ffffff;
     font-size: 3.5rem;
     padding: .5rem 0;
-    cursor: pointer;
-}
-.arrow-up {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  padding: 0 2rem 2rem 0;
-  color: #ffffff;
-  cursor: pointer;
-}
-.arrow-up p {
-  padding-right: 0.3rem;
 }
 .arrow {
   font-size: 2.5rem;
-  color: #ffffff;
 }
-
+/* back-to-top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background: #000207;
+  cursor: pointer;
+  border-radius: 100%;
+  font-size: 2.7rem;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+}
+.back-to-top:hover {
+  background: rgb(138, 135, 135);
+}
 /* Responsive */
 @media screen and (max-width: 850px) {
   .about {
@@ -195,4 +199,7 @@
     flex-direction: column;
     padding-top: 2.5rem;
   }
+  /* .projects {
+    margin: 0;
+  } */
 }
