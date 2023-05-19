@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="footer" id="contact">
         <div className="email">
           <h1>Email:</h1>
-          <h2>Seanrandevs@gmail.com</h2>
+          <h2>Seanransonet@gmail.com</h2>
         </div>
         <div className="icons">
           <HashLink to='https://github.com/seanrandevs'><BsGithub className="icon"/></HashLink>
