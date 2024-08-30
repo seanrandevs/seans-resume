@@ -5,8 +5,7 @@
     font-family: 'Montserrat';
 }
 .link, .job, .name, .skills h4,
- .about h1, .project, .email h1,
-  .email h2 {
+ .project, .email h1, .email h2 {
   font-weight: 400;
 }
 .link, .main-display, .skills h4,
@@ -14,16 +13,16 @@
  .icon, .arrow-up, .arrow {
   color: #ffffff;
 }
-.main-display, .my-skills, .back {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.content, .btn, .card-title, .link {
+
+.content, .btn, .link, .job {
   font-size: 1.5rem;
 }
 .btn, .icon, .arrow-up {
   cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #000000;
 }
 .image {
     height: 100vh;
@@ -34,8 +33,7 @@
 /* Navbar */
 .navbar {
     position: sticky; 
-    top: 0;
-    padding-top: 1rem;
+    top: 3%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -45,50 +43,39 @@
 }
 /* Main Display */
 .main-display {
-    justify-content: center;
-    padding-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 15%;
 }
 .name {
-  font-size: 4.5rem;
-}
-.job {
-  font-size: 2.7rem;
+  font-size: 3rem;
 }
 /* Skills */
-.my-skills{
-  padding-top: 2rem;
-}
-.my-skills h1 {
-  margin-right: 12rem; 
-  
-}
 .skills {
   display: flex;
   flex-wrap: wrap;
-  max-width: 400px;
+  max-width: 425px;
 }
 .skills h4  {
-  background: rgba(153,153,153,.2);
   padding: 0.6rem 0.7rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 /* About */
 .about {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #000207;
-  padding-bottom: 5rem;
-}
-.about h1 {
-  font-size: 3.2rem;
-  margin-bottom: 1rem;
-}
+ display: flex;
+ justify-content: left;
+ position: relative;
+ top: 40%;
+ left: 10%;
+} 
 .about-descrip {
-  max-width: 400px;
+  max-width: 500px;
+  line-height: 1.9;
 }
 /* Projects */
 .project {
@@ -100,68 +87,49 @@
     width: 90vw;
     max-width: 1500px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-row-gap: 3rem;
     padding: 5rem;
     margin: 0 auto;
     background-color: #ffffff;
 }
+.content{
+  display: flex;
+}
 .card {
     margin: 0 auto;
-    margin-bottom: 3rem;
-    width: 300px;
-    height: 300px;
+    width: 500px;
     perspective: 500px;
-    
+    padding: 1rem;
+  }
+  .card:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 1rem;
   }
   .card-title {
+    padding-left: 1rem;
     color: #000000;
-    margin-top: 0.5rem;
+    font-size: 1.1rem;
   }
   .card-text {
-    padding: 0 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 0.9rem;
   }
-  .content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    transition: transform 1s;
-    transform-style: preserve-3d;
+  .card-img-top{
+    height: 125px;
+    width: 150px;
   }
-    .card:hover .content {
-    transform: rotateY( 180deg ) ;
-    transition: transform 0.7s;
+  .skills{
+    padding: 1rem 0 0 1rem;
   }
-  .front,
-  .back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: white;
-    color: #1d1d1d;
-    text-align: center;
-    border-radius: 5px;
-    backface-visibility: hidden;
-  }  
-  .back {
-    justify-content: center;
-    background: #1d1d1d;
-    color: #ffffff;
-    transform: rotateY( 180deg );
+  .skills div{
+    font-size: 0.9rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 0.5rem;
   }
-  .card-img-top {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-}
-  .btn {
-    padding-top: 3rem;
-    background: none;
-    border: none;
-    max-width: 100px;
-    margin: 1.5rem auto;
-}
   /* Footer */
   .contact {
     background-color: #000207;
