@@ -193,7 +193,7 @@ a{
 }
 @media screen and (max-width: 500px) {
   .image{
-    height: 150vh;
+    height: 165vh;
   }
   .content{
     display: flex;
@@ -204,6 +204,10 @@ a{
   .card-img-top{
     height: 100px;
     width: 125px;
+  }
+  .card-text {
+    max-width: 300px;
+    font-size: 0.9rem;
   }
   .footer {
     display: flex;
