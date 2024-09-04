@@ -4,6 +4,9 @@
     /* box-sizing: border-box; */
     font-family: 'Montserrat';
 }
+body {
+  overflow-x: hidden;
+}
 .link, .job, .skills h4,
  .project, .email h1, .email h2 {
   font-weight: 400;
@@ -84,7 +87,7 @@ a{
   padding-top: 3rem;
 }
 .projects {
-    width: 90vw;
+    width: 100%;
     max-width: 1500px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -184,7 +187,7 @@ a{
 }
 @media screen and (max-width: 500px) {
   .image{ 
-    height: 150vh;
+    height: 170vh;
   }
   .content{
     display: flex;
