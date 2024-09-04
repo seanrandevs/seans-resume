@@ -204,8 +204,10 @@ a{
   .card-img-top{
     height: 100px;
     width: 125px;
+    padding-bottom: 1rem;
   }
-  .card-text {
+  .card-text, .card {
+    /* text-align: center; */
     max-width: 300px;
     font-size: 0.9rem;
   }
