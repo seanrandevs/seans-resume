@@ -71,7 +71,7 @@ a{
  display: flex;
  justify-content: left;
  position: relative;
- top: 40%;
+ top: 30%;
  left: 10%;
 } 
 .about-descrip {
@@ -192,6 +192,19 @@ a{
   }
 }
 @media screen and (max-width: 500px) {
+  .image{
+    height: 150vh;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-img-top{
+    height: 100px;
+    width: 125px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
