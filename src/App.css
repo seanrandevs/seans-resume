@@ -221,6 +221,7 @@ a{
     margin-top: 1rem;
   }
   .projects {
+    max-width: 270px;
     padding: 0;
     margin: 4rem 0;
   }
