@@ -20,10 +20,7 @@ const Header = () => {
             and I excel in problem-solving and innovative solutions. With a solid foundation in React.js, 
             Angular, Responsive Design, .NET/C#, and SQL, I am passionate about leveraging these technologies to create impactful web applications. 
             Explore my project section to see how I transform ideas into engaging and effective web solutions.
-            </div>
-        </div>
-        <div className="about" id="skills">
-              <div className="skills">
+            <div className="skills">
                 <h4>CSS</h4>
                 <h4>Javascript</h4>
                 <h4>React</h4>
@@ -35,6 +32,8 @@ const Header = () => {
                 <h4>SQL</h4>
               </div>
             </div>
+            
+        </div>
           </div>
   )
 }
