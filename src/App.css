@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Montserrat';
 }
 .link, .job, .skills h4,
@@ -99,7 +99,7 @@ a{
 .card {
     margin: 0 auto;
     width: 500px;
-    perspective: 500px;
+    /* perspective: 500px; */
     padding: 1rem;
   }
   .card:hover{
@@ -165,11 +165,9 @@ a{
 }
 /* Responsive */
 @media screen and (max-width: 850px) {
-  /* .about {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2.5rem;
-  } */
+  .image{ 
+    height: 115vh;
+  }
   .main-display {
     display: flex;
     flex-direction: column;
@@ -185,6 +183,9 @@ a{
   }
 }
 @media screen and (max-width: 500px) {
+  .image{ 
+    height: 150vh;
+  }
   .content{
     display: flex;
     flex-direction: column;
