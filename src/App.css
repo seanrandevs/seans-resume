@@ -169,7 +169,7 @@ a{
 /* Responsive */
 @media screen and (max-width: 850px) and (min-width: 501px) {
   .image{ 
-    height: 115vh;
+    height: 130vh;
   }
   .main-display {
     display: flex;
@@ -198,7 +198,6 @@ a{
   .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
   .card-img-top{
@@ -207,7 +206,7 @@ a{
     padding-bottom: 1rem;
   }
   .card-text, .card {
-    max-width: 300px;
+    /* max-width: 300px; */
     font-size: 0.9rem;
   }
   .footer {
@@ -220,7 +219,6 @@ a{
     margin-top: 1rem;
   }
   .projects {
-    max-width: 270px;
     padding: 0;
     margin: 4rem 0;
   }
