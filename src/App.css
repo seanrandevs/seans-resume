@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Montserrat';
 }
 body {
@@ -184,7 +184,7 @@ a{
 }
 @media screen and (max-width: 500px) {
   .image{ 
-    height: 165vh;
+    height: 130vh;
   }
   .main-display {
     display: flex;
