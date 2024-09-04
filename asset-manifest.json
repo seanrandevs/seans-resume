@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.92ac0eb2.css",
-    "main.js": "/static/js/main.e42330d6.js",
+    "main.css": "/static/css/main.7e5f5464.css",
+    "main.js": "/static/js/main.df9fec7f.js",
     "static/js/787.dd7e70f8.chunk.js": "/static/js/787.dd7e70f8.chunk.js",
     "static/media/background.jpg": "/static/media/background.45e55377518951c2b972.jpg",
-    "static/media/faq.jpg": "/static/media/faq.c22317efca4ce0f61f2c.jpg",
     "static/media/task.jpeg": "/static/media/task.a1faf513ad2d58c58035.jpeg",
     "static/media/signup.jpeg": "/static/media/signup.614f084e3e361b9fc860.jpeg",
     "static/media/wanderlust.jpg": "/static/media/wanderlust.6818fb37df3756d6935e.jpg",
@@ -14,12 +13,12 @@
     "static/media/covers.jpg": "/static/media/covers.87f2ad2496c81298fb2f.jpg",
     "static/media/weather.jpg": "/static/media/weather.5c79c5ffe88e49666a96.jpg",
     "index.html": "/index.html",
-    "main.92ac0eb2.css.map": "/static/css/main.92ac0eb2.css.map",
-    "main.e42330d6.js.map": "/static/js/main.e42330d6.js.map",
+    "main.7e5f5464.css.map": "/static/css/main.7e5f5464.css.map",
+    "main.df9fec7f.js.map": "/static/js/main.df9fec7f.js.map",
     "787.dd7e70f8.chunk.js.map": "/static/js/787.dd7e70f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ac0eb2.css",
-    "static/js/main.e42330d6.js"
+    "static/css/main.7e5f5464.css",
+    "static/js/main.df9fec7f.js"
   ]
 }
