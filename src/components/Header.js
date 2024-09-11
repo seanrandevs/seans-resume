@@ -14,7 +14,7 @@ const Header = () => {
             <div className="job">Front-end Web Developer</div>
           </div>
             <div className="about-descrip">
-            As a dedicated Frontend Web Developer with a year and a half of experience, 
+            As a dedicated Frontend Web Developer with 2 years of experience, 
             I specialize in crafting visually compelling and user-centric websites. 
             My enthusiasm for building and designing dynamic digital experiences drives my work, 
             and I excel in problem-solving and innovative solutions. With a solid foundation in React.js, 
