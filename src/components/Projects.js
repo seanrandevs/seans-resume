@@ -8,6 +8,8 @@ import TaskTracker from '../assets/project-img/task.jpeg'
 import Bulletin from '../assets/project-img/bulletin.jpg'
 import Signup from '../assets/project-img/signup.jpeg'
 import AliciaPort from '../assets/project-img/aliciaportfolio.jpg'
+import EventManager from '../assets/project-img/event-manager.jpg'
+import BudgetTracker from '../assets/project-img//budget-tracker.jpg'
 
 const Projects = () => {
   return (
@@ -155,7 +157,62 @@ const Projects = () => {
              </div>
             </HashLink>
           </Card>
-            
+          <Card>
+            <HashLink to="https://seanrandevs.github.io/budget-tracker-frontend">
+              <div className="content">
+                <Card.Img variant="top" src={BudgetTracker} />
+                  <div className='descript'>
+                    <Card.Title>Budget Tracker</Card.Title>
+                    <Card.Text>A simple budget tracker to help see the total and average where money is going.
+                      I also have a backend application to go with it using C# and SQLite for the database.
+                    </Card.Text>
+                    <div className="project-skills">
+                      <div>HTML</div>
+                      <div>Css</div>
+                      <div>Bootstrap</div>
+                      <div>React</div>
+                    </div>
+                 </div>
+             </div>
+            </HashLink>
+          </Card>
+          <Card>
+            <HashLink to="https://seanrandevs.github.io/event-management-frontend">
+              <div className="content">
+                <Card.Img variant="top" src={EventManager} />
+                  <div className='descript'>
+                    <Card.Title>Event Management Project</Card.Title>
+                    <Card.Text>Created this very simple event management website. Nothing fancy, 
+                      mainly front-end work with a contact page/link at the bottom and a login at the top right. 
+                      I also have a backend application I created to go with it.
+                    </Card.Text>
+                    <div className="project-skills">
+                      <div>HTML</div>
+                      <div>Css</div>
+                      <div>Bootstrap</div>
+                      <div>React</div>
+                    </div>
+                 </div>
+             </div>
+            </HashLink>
+          </Card>
+          <Card>
+              <div className="content">
+                  <div className='descript'>
+                    <Card.Title>Backend Application Projects</Card.Title>
+                    <Card.Text>
+                    https://github.com/seanrandevs/EventManagementSystem
+                    https://github.com/seanrandevs/BudgetTrackerBackend
+                    </Card.Text>
+                    <div className="project-skills">
+                      <div>C#</div>
+                      <div>.NET</div>
+                      <div>SQL</div>
+                      <div>SQLITE</div>
+                    </div>
+                 </div>
+             </div>
+          </Card>
     </div>
     </div>
   )
