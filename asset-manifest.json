@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa5f12da.css",
-    "main.js": "/static/js/main.4a9a144c.js",
+    "main.css": "/static/css/main.64c2fe55.css",
+    "main.js": "/static/js/main.f7c5feeb.js",
     "static/js/787.dd7e70f8.chunk.js": "/static/js/787.dd7e70f8.chunk.js",
-    "static/media/IMG_0300.MOV": "/static/media/IMG_0300.77e366562263410765c7.MOV",
     "static/media/background.jpg": "/static/media/background.45e55377518951c2b972.jpg",
+    "static/media/budget-tracker.jpg": "/static/media/budget-tracker.aab9d63b993f8435cbf0.jpg",
+    "static/media/event-manager.jpg": "/static/media/event-manager.1fde5c43289b0cb21b6d.jpg",
     "static/media/task.jpeg": "/static/media/task.a1faf513ad2d58c58035.jpeg",
     "static/media/signup.jpeg": "/static/media/signup.614f084e3e361b9fc860.jpeg",
     "static/media/wanderlust.jpg": "/static/media/wanderlust.6818fb37df3756d6935e.jpg",
@@ -14,12 +15,12 @@
     "static/media/covers.jpg": "/static/media/covers.87f2ad2496c81298fb2f.jpg",
     "static/media/weather.jpg": "/static/media/weather.5c79c5ffe88e49666a96.jpg",
     "index.html": "/index.html",
-    "main.aa5f12da.css.map": "/static/css/main.aa5f12da.css.map",
-    "main.4a9a144c.js.map": "/static/js/main.4a9a144c.js.map",
+    "main.64c2fe55.css.map": "/static/css/main.64c2fe55.css.map",
+    "main.f7c5feeb.js.map": "/static/js/main.f7c5feeb.js.map",
     "787.dd7e70f8.chunk.js.map": "/static/js/787.dd7e70f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa5f12da.css",
-    "static/js/main.4a9a144c.js"
+    "static/css/main.64c2fe55.css",
+    "static/js/main.f7c5feeb.js"
   ]
 }
