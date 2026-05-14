@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.64c2fe55.css",
-    "main.js": "/static/js/main.f7c5feeb.js",
-    "static/js/787.dd7e70f8.chunk.js": "/static/js/787.dd7e70f8.chunk.js",
-    "static/media/background.jpg": "/static/media/background.45e55377518951c2b972.jpg",
-    "static/media/budget-tracker.jpg": "/static/media/budget-tracker.aab9d63b993f8435cbf0.jpg",
-    "static/media/event-manager.jpg": "/static/media/event-manager.1fde5c43289b0cb21b6d.jpg",
-    "static/media/task.jpeg": "/static/media/task.a1faf513ad2d58c58035.jpeg",
-    "static/media/signup.jpeg": "/static/media/signup.614f084e3e361b9fc860.jpeg",
-    "static/media/wanderlust.jpg": "/static/media/wanderlust.6818fb37df3756d6935e.jpg",
-    "static/media/bulletin.jpg": "/static/media/bulletin.615501b89afd36c60a61.jpg",
-    "static/media/irvins.jpg": "/static/media/irvins.98ad48ad5c53420ad0f1.jpg",
-    "static/media/aliciaportfolio.jpg": "/static/media/aliciaportfolio.a801e517bfe73dd340ba.jpg",
-    "static/media/covers.jpg": "/static/media/covers.87f2ad2496c81298fb2f.jpg",
-    "static/media/weather.jpg": "/static/media/weather.5c79c5ffe88e49666a96.jpg",
-    "index.html": "/index.html",
-    "main.64c2fe55.css.map": "/static/css/main.64c2fe55.css.map",
-    "main.f7c5feeb.js.map": "/static/js/main.f7c5feeb.js.map",
-    "787.dd7e70f8.chunk.js.map": "/static/js/787.dd7e70f8.chunk.js.map"
+    "main.css": "/seans-resume/static/css/main.6b1c77bf.css",
+    "main.js": "/seans-resume/static/js/main.2763f821.js",
+    "static/js/787.dd7e70f8.chunk.js": "/seans-resume/static/js/787.dd7e70f8.chunk.js",
+    "static/media/background.jpg": "/seans-resume/static/media/background.45e55377518951c2b972.jpg",
+    "static/media/budget-tracker.jpg": "/seans-resume/static/media/budget-tracker.aab9d63b993f8435cbf0.jpg",
+    "static/media/event-manager.jpg": "/seans-resume/static/media/event-manager.1fde5c43289b0cb21b6d.jpg",
+    "static/media/task.jpeg": "/seans-resume/static/media/task.a1faf513ad2d58c58035.jpeg",
+    "static/media/signup.jpeg": "/seans-resume/static/media/signup.614f084e3e361b9fc860.jpeg",
+    "static/media/wanderlust.jpg": "/seans-resume/static/media/wanderlust.6818fb37df3756d6935e.jpg",
+    "static/media/bulletin.jpg": "/seans-resume/static/media/bulletin.615501b89afd36c60a61.jpg",
+    "static/media/irvins.jpg": "/seans-resume/static/media/irvins.98ad48ad5c53420ad0f1.jpg",
+    "static/media/aliciaportfolio.jpg": "/seans-resume/static/media/aliciaportfolio.a801e517bfe73dd340ba.jpg",
+    "static/media/covers.jpg": "/seans-resume/static/media/covers.87f2ad2496c81298fb2f.jpg",
+    "static/media/weather.jpg": "/seans-resume/static/media/weather.5c79c5ffe88e49666a96.jpg",
+    "index.html": "/seans-resume/index.html",
+    "main.6b1c77bf.css.map": "/seans-resume/static/css/main.6b1c77bf.css.map",
+    "main.2763f821.js.map": "/seans-resume/static/js/main.2763f821.js.map",
+    "787.dd7e70f8.chunk.js.map": "/seans-resume/static/js/787.dd7e70f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c2fe55.css",
-    "static/js/main.f7c5feeb.js"
+    "static/css/main.6b1c77bf.css",
+    "static/js/main.2763f821.js"
   ]
 }
